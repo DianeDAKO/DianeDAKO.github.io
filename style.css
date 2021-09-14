@@ -9947,12 +9947,12 @@ margin: auto;
   background-color: #e83e8c;
 }
 /*pour moi*/
-.entete
 { 
-background-color:rgba(221, 221, 221, 0.068);
-height: 100px;
+background-color:rgba(255, 206, 213, 0.575);
+height: 125px;
 width: 100%;
 }
+
 .accueil
 { 
   background-color:pink;
@@ -10081,8 +10081,8 @@ margin-bottom: 100px;
   }
  .refim1
  { 
-   color: red;
-   background-color: rgba(150, 34, 34, 0.329);
+   color:;
+   background-color: #cc76c667;
   border-radius: 10px;
  }
  .non
@@ -10093,6 +10093,17 @@ margin-bottom: 100px;
  { 
   margin-left: auto;
  width: 10px;
- height: 10px;
   margin-bottom: 100px;
   }
+  .neutre 
+  { 
+    height:125px;
+   
+  }
+  #waterdrop {
+    height: 30px;
+}
+
+#waterdrop canvas {
+    bottom: -70px !important;
+}
