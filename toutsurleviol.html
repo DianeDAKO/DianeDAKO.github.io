@@ -4,134 +4,147 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.html">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/assets/Librairies/bootstrap-4.3.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="row entete">
-        <a class="navbar-brand imageicon"><img src="viol.jpg" alt=""width="80px" height="100px"></a>
-        <div class="col-1 accueil"><a href="index.html">ACCUEIL</a></div>
-        <div class="col-5 stop">STOP VIOL</div>
-        <div class="col-1 toutsurleviol"><a href="toutsurleviol.html">Tout sur le Viol</a></div>
-        <div class="col-1 textes"><a href="textesurleviol.html">Textes sur le viol</a> </div>
-        <div class="col-1 temoignage"><a href="temoignages.html">Quelques Témoignages</a> </div>
-        <div class="col-1 appel"> <a href="appel.html">Appel à l'aide</a></div>
-      </div>
-     <div class="row">
-         <div class="col-8 def"> 
-             <h2><b>Le viol est l'acte par lequel une personne est contrainte à un acte sexuel (le plus souvent un rapport sexuel) par la force, 
-      la surprise, la menace, la ruse ou, plus largement, par l'absence de consentement.
-           </b> </h2> <br>
-            <h4>Le <b>viol</b> est un crime qui associe violence,
-             agression et domination. Il provoque des souffrances physiques et mentales aiguës. </h4><br>
-             Selon le denier rapport des Nations Unies, qui date de 2010, les Etats-Unis est le pays qui compte les plus de viols : presque 85000 par an.
-             <br>
-                Selon Muriel Salmona, 16% des femmes ont subi un viol ou une tentative de viol. On<br>
-                    retrouve ce chiffre dans l'enquête Contexte de la Sexualité en France (CSF), réalisée
-                    par téléphone auprès de 12364 personnes âgées de 18 à 69 ans entre 2005 et 2006, à
-                    l'initiative de l'Agence nationale de recherches sur le sida et les hépatites virales
-                    (ANRS). Deux questions étaient posées : <i>«Au cours de votre vie, est-il arrivé que
-                    quelqu'un vous force à subir ou à faire des attouchements sexuels ?»</i>  et <i> «Au cours de
-                    votre vie, est-il arrivé que quelqu'un vous force ou essaye de vous forcer à avoir des
-                    rapports sexuels ?» </i>La part de femmes déclarant avoir été victimes, au moins une
-                    fois dans leur vie, de rapports forcés et de tentatives de rapports forcés était alors de 16%.<br>
-                    Pour autant, sur le même sujet, la dernière enquête Virage (Violences et rapports de
-                    genres) de l'Institut national des études démographiques (Ined) réalisée auprès de
-                    27 268 femmes et hommes en 2015 constate que 3,7% de femmes sont victimes de
-                    viol ou de tentatives de viol au cours de leur vie.
-       </div>
-         <div class="col-3 image1tslv"><img src="viol3.jpg" alt="" width="300";height="600"> <br>
-            <div class="refim1"><h4>Le viol est le plus vil des actes de violence.</h4></div>
-         </div>
-        </div>
-        <div class="row">
-            <div class="col-3 image2tslv"><img src="non2.jpg.crdownload" alt=""width="300";height="600"></div>
-            <div class="col-9">
-                <h2>
-                   <b> UN NON EST UN NON! ET SANS OUI C'EST NON!</b> </h2><br>
-                   Tant en droit que dans la pratique, il ne faut pas supposer qu’une personne a donné son consentement
-                 parce qu’elle n’a pas opposé de résistance physique. Le fait qu’une femme n’ait pas de blessures visibles
-                    qu’elle n’ait pas dit « NON » ou opposé une résistance ne signifie pas qu’elle n’a pas été violée.
-                <br>
-                Même si on pourrait s’attendre à ce qu’une victime de viol « type » s’oppose physiquement
-                 à son agresseur, la sidération est une réaction physiologique et psychologique couramment 
-                 constatée en cas d’agression sexuelle, qui empêche la personne de s’opposer à l’agression,
-                  l’obligeant même souvent à rester immobile.Il est souvent impossible pour la victime de dire
-                   non ; la personne peut être figée et dans une forme d’incompréhension de ce qu’il se passe, 
-                   être comme bloquée, sidérée. On voit ça régulièrement, et pas uniquement dans des situations 
-                   d’agression sexuelle, mais aussi lors d’attentat, de braquage ou même d’une agression dans la
-                    rue ou dans le métro. La victime n’est plus en capacité de réagir à une situation de stress 
-                    extrême, et elle ne peut donc pas exprimer verbalement ou physiquement son refus. Ça, c’est 
-                    une chose.
-                  La victime peut aussi avoir peur : peur de la personne qui veut lui imposer quelque chose, 
-                  de sa réaction, ou des conséquences d’un refus. Elle se sent piégée.
+    <nav class="navbar navbar-expand-md navbar-light fixed-top menu" style="background-color: #cc76c667;">
+        <a class="navbar-brand imagmenu"><img src="viol.jpg" alt=""width="80px" height="100px"></a>
+        <a class="navbar-brand " style="font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;text-shadow:0.1em 0.1em #6d4549;">
+          <h1>STOP VIOL</h1> </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" 
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto mb-2 mb-lg">
+                    <li class="nav-item active">
+                      <a class="nav-link es" href="index.html" style="color: aliceblue;">ACCUEIL</a>
+                   </li>
                   
-                  La victime peut aussi ne pas être en état de s’exprimer. Si elle est alcoolisée, sous
-                   l’effet de substances quelles qu’elles soient qui transforment son rapport à la réalité 
-                   et au monde, ou si elle est endormie, ça ne permet pas ce que l’on appelle le consentement 
-                   éclairé. En clair, si toutes les lumières ne sont pas allumées, c’est pas un consentement éclairé. Ainsi, une étude clinique suédoise de 2017 a 
-                  établi que 70 % des 298 femmes victimes de viol ayant participé à l’étude avaient été 
-                  frappées de « paralysie involontaire » pendant l’agression.
-                  <div class="non"> <b>#nonveuttoutsimplementdirenon</b> <br><b>#sijenedispasouic'estnon</b> </div>
+                    <li class="nav-item active">
+                     <a class="nav-link es"href="toutsurleviol.html" style="color: aliceblue;">Tout sur le Viol</a>
+                    </li>
+                   <li class="nav-item active">
+                    <a class="nav-link es" href="textesurleviol.html" style="color: aliceblue;">Textes sur le viol</a> 
+                    </li>
+                    <li class="nav-item active">
+                     <a class="nav-link es" href="temoignages.html" style="color: aliceblue;">Quelques Témoignages</a>
+                    </li>
+                   <li class="nav-item active">
+                  <a class="nav-link es" href="appel.html" style="color:aliceblue;">Appel à l'aide</a>
+                  </li>
+               </ul>
+              </div>
+      </nav>
+      <div class="neutre"></div>
+      <div class="row">
+        <div class="col-8 def"> 
+            <h2><b>Le viol est l'acte par lequel une personne est contrainte à un acte sexuel (le plus souvent un rapport sexuel) par la force, 
+     la surprise, la menace, la ruse ou, plus largement, par l'absence de consentement.
+          </b> </h2> <br>
+           <h4>Le <b>viol</b> est un crime qui associe violence,
+            agression et domination. Il provoque des souffrances physiques et mentales aiguës. </h4><br>
+            Selon le denier rapport des Nations Unies, qui date de 2010, les Etats-Unis est le pays qui compte les plus de viols : presque 85000 par an.
+            <br>
+               Selon Muriel Salmona, 16% des femmes ont subi un viol ou une tentative de viol. On<br>
+                   retrouve ce chiffre dans l'enquête Contexte de la Sexualité en France (CSF), réalisée
+                   par téléphone auprès de 12364 personnes âgées de 18 à 69 ans entre 2005 et 2006, à
+                   l'initiative de l'Agence nationale de recherches sur le sida et les hépatites virales
+                   (ANRS). Deux questions étaient posées : <i>«Au cours de votre vie, est-il arrivé que
+                   quelqu'un vous force à subir ou à faire des attouchements sexuels ?»</i>  et <i> «Au cours de
+                   votre vie, est-il arrivé que quelqu'un vous force ou essaye de vous forcer à avoir des
+                   rapports sexuels ?» </i>La part de femmes déclarant avoir été victimes, au moins une
+                   fois dans leur vie, de rapports forcés et de tentatives de rapports forcés était alors de 16%.<br>
+                   Pour autant, sur le même sujet, la dernière enquête Virage (Violences et rapports de
+                   genres) de l'Institut national des études démographiques (Ined) réalisée auprès de
+                   27 268 femmes et hommes en 2015 constate que 3,7% de femmes sont victimes de
+                   viol ou de tentatives de viol au cours de leur vie.
+      </div>
+        <div class="col-3 image1tslv"><img src="viol3.jpg" alt="" class="img-thumbnail" width="300";height="600"> <br>
+           <div class="refim1"><h4>Le viol est le plus vil des actes de violence.</h4></div>
+        </div>
+       </div>
+       <div class="row">
+           <div class="col-3 image2tslv"><img src="non2.jpg.crdownload"  alt=""  class="img-thumbnail" width="300";height="600"></div>
+           <div class="col-9">
+               <h2>
+                  <b> UN NON EST UN NON! ET SANS OUI C'EST NON!</b> </h2><br>
+                  Tant en droit que dans la pratique, il ne faut pas supposer qu’une personne a donné son consentement
+                parce qu’elle n’a pas opposé de résistance physique. Le fait qu’une femme n’ait pas de blessures visibles
+                   qu’elle n’ait pas dit « NON » ou opposé une résistance ne signifie pas qu’elle n’a pas été violée.
+               <br>
+               Même si on pourrait s’attendre à ce qu’une victime de viol « type » s’oppose physiquement
+                à son agresseur, la sidération est une réaction physiologique et psychologique couramment 
+                constatée en cas d’agression sexuelle, qui empêche la personne de s’opposer à l’agression,
+                 l’obligeant même souvent à rester immobile.Il est souvent impossible pour la victime de dire
+                  non ; la personne peut être figée et dans une forme d’incompréhension de ce qu’il se passe, 
+                  être comme bloquée, sidérée. On voit ça régulièrement, et pas uniquement dans des situations 
+                  d’agression sexuelle, mais aussi lors d’attentat, de braquage ou même d’une agression dans la
+                   rue ou dans le métro. La victime n’est plus en capacité de réagir à une situation de stress 
+                   extrême, et elle ne peut donc pas exprimer verbalement ou physiquement son refus. Ça, c’est 
+                   une chose.
+                 La victime peut aussi avoir peur : peur de la personne qui veut lui imposer quelque chose, 
+                 de sa réaction, ou des conséquences d’un refus. Elle se sent piégée.
+                 
+                 La victime peut aussi ne pas être en état de s’exprimer. Si elle est alcoolisée, sous
+                  l’effet de substances quelles qu’elles soient qui transforment son rapport à la réalité 
+                  et au monde, ou si elle est endormie, ça ne permet pas ce que l’on appelle le consentement 
+                  éclairé. En clair, si toutes les lumières ne sont pas allumées, c’est pas un consentement éclairé. Ainsi, une étude clinique suédoise de 2017 a 
+                 établi que 70 % des 298 femmes victimes de viol ayant participé à l’étude avaient été 
+                 frappées de « paralysie involontaire » pendant l’agression.
+                 <div class="non"> <b>#nonveuttoutsimplementdirenon</b> <br><b>#sijenedispasouic'estnon</b> </div>
 
 
 
+           </div> <br>
+           <div class="row">
+            <div class="col-3 image2tslv"><img src="habit.jpeg"  alt=""  class="img-thumbnail" width="300";height="600"></div>
+            <div class="col-9">
+                <h2> <b> L'HABILLEMENT N'EST PAS LA CAUSE </b> </h2><br>
+                   
+                <p>  L’idée qu’une femme peut, par sa tenue, inciter un homme à la
+                    violer est l’expression de stéréotypes  profondément ancrés sur 
+                    la sexualité masculine et la sexualité féminine. Dans les faits,
+                     des femmes sont violées ou agressées quoi qu’elles portent. 
+                     Aucun type de vêtement n’est une invitation à caractère sexuel ni un  consentement implicite.</p>
+
+                     <p> Ce qu’une femme portait lorsqu’elle a été violée n’a tout
+                       simplement aucun lien avec son agression. Un viol n’est
+                        jamais imputable à la victime. Accepter le principe que les
+                        rapports sexuels sans consentement constituent un viol
+                         est le premier pas vers une évolution des comportements
+                          sociaux qui ne font qu’accentuer la douleur des victimes.
+                          
+               </div>
+ 
+ 
+ 
             </div> <br>
-         <div class="row">
-            <div class="col-12">
-                <h2>
-                    <b> &nbsp;&nbsp; L'HABILLEMENT N'EST PAS LA CAUSE </b> </h2>
-           </div>
-           <div class="row">
-                <div class="col-4">
-                    <p> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; L’idée qu’une femme peut, par sa tenue, inciter un <br> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; homme à la
-                     violer est l’expression de stéréotypes <br> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; profondément ancrés sur 
-                     la sexualité masculine et la <br> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; sexualité féminine. Dans les faits,
-                      des femmes sont  <br> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; violées ou agressées quoi qu’elles portent. 
-                      Aucun  <br> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; type de vêtement n’est une invitation à caractère sexuel  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ni un  consentement implicite.</p>
+            <div class="row">
+                <div class="col-3 image2tslv"><img src="cause.jpg.crdownload"  alt=""  class="img-thumbnail" width="500";height="1000"></div>
+                <div class="col-9">
+                    <h2> <b>AUCUN VIOL NE PEUT ÊTRE JUSTIFIÉ </b></h2><br>
+                       
+                    La consommation d'alcool et de drogue ne serait aucunement justifier un viol.De même, un rapport sexuel avec une personne qui n’est pas en état de donner son éventuel consentement car elle est sous l’emprise de l’alcool ou de la drogue <p>est un viol.
+                              
+                   </div>
+     
+     
+     
+                </div> <br>
+       
 
-                      <p> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; Ce qu’une femme portait lorsqu’elle a été violée n’a tout <br> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-                        simplement aucun lien avec son agression. Un viol n’est <br> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-                         jamais imputable à la victime. Accepter le principe que les <br> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-                         rapports sexuels sans consentement constituent un viol <br> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-                          est le premier pas vers une évolution des comportements <br> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-                           sociaux qui ne font qu’accentuer la douleur des victimes. <br> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-                           
-                </div>
-                <div class="col-6"><img src="habit.jpeg" alt=""></div>
-                
 
-           </div>
-           <div class="row">
-            <div class="col-8 def"> 
-                <h2><b> <p> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;AUCUN VIOL NE PEUT ÊTRE JUSTIFIÉ
-              </b> </h2> <br>
-         &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; La consommation d'alcool et de drogue ne serait aucunement justifier un viol.De même, un rapport sexuel avec une  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;personne qui n’est pas en état de donner son éventuel consentement car elle est sous l’emprise de l’alcool ou de la drogue <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; est un viol.
-               
-          </div>
-            <div class="col-3 image1tslv"><img src="cause.jpg.crdownload" alt="" width="293";height="200"> <br>
-              
-            </div>
-            <div class="footer">
-                <div class="row">
-                    <div class="col-4 stop1"> &nbsp;&nbsp;&nbsp; STOP VIOL </div>
-                    <div class="col-2 accueilfooter"><a href="index.html">ACCUEIL</a> </div>
-                    <div class="col-1 tslv "><a href="toutsurleviol.html">Tout sur le Viol</a> </div>
-                    <div class="col-1 tsl"><a href="textesurleviol.html">Textes sur le viol</a>  </div>
-                    <div class="col-2 tmoi"><a href="temoignages.html">Quelques Témoignages</a>  </div>
-                    <div class="col-2 app"> <a href="appel.html">Appel à l'aide</a> </div>
-                </div>
-                <div class="row reseau">
-                    <div col-2 class="fb">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://web.facebook.com/didi.queen.733"><img src="facebook.png" alt="" width="45" height="35"></a></div>
-                    <div col-2 class="wh"><a href="https://wa.me/+22960189511"><img src="what.png" alt="" width="45" height="35"></a></div>
-                    <div col-2 class="ig"><a href="https://www.instagram.com/_d_i_a_n_e_/"><img src="ig.jpeg" alt="" width="45" height="35"></a></div>
-                  </div>
-                </div> 
-              
-                </div>
-           </div>
-           
-         </div>   
+    <script src="assets/Librairies/bootstrap-4.3.1-dist/js/jquery-3.6.0.js"></script>
+    <script src="assets/jquery/dist/jquery.min.js"></script>
+<script src="/assets/Librairies/bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+<script src="/assets/Librairies/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
 
-         
+</body>
+</html>
