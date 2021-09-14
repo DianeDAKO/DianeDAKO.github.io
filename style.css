@@ -10077,13 +10077,14 @@ margin-bottom: 100px;
   margin-left: auto;
  width: 10px;
  height: 10px;
-  margin-bottom: 100px;
+  margin-bottom: 100px;margin-top: 50px;
   }
  .refim1
  { 
    color:;
-   background-color: #cc76c667;
+  
   border-radius: 10px;
+  
  }
  .non
  { 
@@ -10106,4 +10107,8 @@ margin-bottom: 100px;
 
 #waterdrop canvas {
     bottom: -70px !important;
+}
+.def 
+{ 
+  margin-top: 50px;
 }
