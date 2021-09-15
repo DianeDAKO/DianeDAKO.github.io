@@ -10098,8 +10098,12 @@ margin-bottom: 100px;
   }
   .neutre 
   { 
-    height:125px;
+    height:75px;
    
+  }
+  .neutre1
+  { 
+    height: 125px;
   }
   #waterdrop {
     height: 30px;
