@@ -5848,7 +5848,7 @@ a.close.disabled {
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-fade .active.carousel-item-left,
-.carousel-fade .active.carousel-item-right {
+.carousel- .active.carousel-item-right {
     transition: none;
   }
 }
@@ -10009,7 +10009,7 @@ width: 100%;
 .convention 
 { 
 margin-left: auto;
-background-color: #f5c6cb;
+background:linear-gradient(rgba(255, 0, 0, 0.678) 30%,red);
 margin-bottom: 100px;
 }
 .ref 
@@ -10098,12 +10098,12 @@ margin-bottom: 100px;
   }
   .neutre 
   { 
-    height:75px;
+    height:35px;
    
   }
   .neutre1
   { 
-    height: 125px;
+    height: 110px;
   }
   #waterdrop {
     height: 30px;
@@ -10120,4 +10120,24 @@ margin-bottom: 100px;
 { 
   margin-top: 50px;
 
+}
+.imagetemo 
+{ 
+  text-align: center;
+.desordre 
+{
+  width:100%;
+  box-shadow: 30px;
+}
+.acc{ 
+color: green;
+background-color: hotpink;
+transition: all 1s ease-out;
+}
+
+acc:hover,
+acc:focus{
+  color: hotpink;
+  background-color: green;
+}
 }
